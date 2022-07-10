@@ -36,6 +36,13 @@
 <!--=====END OF NAVBAR====-->
 
 <header>
+    <div class="watch">
+    <div class="quote">
+        <h4>Quote for the day</h4>
+        <h2>We is the most precious, utilize it properly.</h2>
+    </div>
+    <h1 id="current-time"></h1>
+</div>
     <div class="container header__container">
         <div class="header__left">
             <h1>Grow your skills to advance your career path</h1>
@@ -118,6 +125,12 @@
           }}
         });
 </script>
-
+<script>
+    let time = document.getElementById("current-time");
+    setInterval(() => {
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+    }, 1000)
+</script>
 </body>
 </html>
