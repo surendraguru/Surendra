@@ -26,6 +26,27 @@
 
     --transition: all 400ms ease;
 }
+
+.watch {
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+
+.watch h1 {
+    text-align: center;
+    color: yellow;
+    letter-spacing: 3px;
+    margin: 60px;
+}
+
+.quote {
+    text-align: center;
+    color: greenyellow;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
