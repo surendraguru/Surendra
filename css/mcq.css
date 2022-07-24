@@ -2,7 +2,7 @@
   background: var(--color-bg1);
   padding: 2rem;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   gap: 2rem;
   height: 25rem;
   margin: 5rem auto;
