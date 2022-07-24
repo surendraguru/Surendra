@@ -24,3 +24,10 @@ h3, h4 {
   background-color:purple;
   text-align center;
   border-radius:7px;}
+@media screen and (max-width:600px){
+  .container{width:var(--container-width-sm);}
+  .item-list{
+    grid-template-columns:1fr;
+    gap:2rem;}
+  .item{
+    margin:1rem auto;}}
